@@ -1,0 +1,51 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    .headerContainer{
+        .headerWrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 1%;
+            color: #fff;
+            margin-right: 1.5%;
+            margin-left: 1.5%;
+            .logo{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .logoIcon{
+                    font-size: 40px;
+                }
+                .logoTitle{
+                    font-size: 25px;
+                    font-weight: 500;
+                }
+            }
+            .links{
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                    gap: 10%;
+                    text-decoration: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            .userEntry{
+                display: block;
+                gap: 15%;
+                .logIn{
+                    display: inline-block;
+                    margin-left: -15%;
+                    margin-right: 10%;
+                }
+            }
+        }
+    }
+}

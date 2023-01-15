@@ -1,0 +1,45 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header .headerContainer .headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1%;
+  color: #fff;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+}
+.header .headerContainer .headerWrapper .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.header .headerContainer .headerWrapper .logo .logoIcon {
+  font-size: 40px;
+}
+.header .headerContainer .headerWrapper .logo .logoTitle {
+  font-size: 25px;
+  font-weight: 500;
+}
+.header .headerContainer .headerWrapper .links ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10%;
+  text-decoration: none;
+}
+.header .headerContainer .headerWrapper .links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.header .headerContainer .headerWrapper .userEntry {
+  display: block;
+  gap: 15%;
+}
+.header .headerContainer .headerWrapper .userEntry .logIn {
+  display: inline-block;
+  margin-left: -15%;
+  margin-right: 10%;
+}/*# sourceMappingURL=Header.css.map */

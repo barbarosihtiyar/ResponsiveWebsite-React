@@ -1,0 +1,19 @@
+.adverst{
+    background-color: #bcd5cb;
+    display: inline-block;
+    width: 100%;    
+    .adverstContainer{
+        max-width: 1350px;
+        .adverstWrapper{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5%;
+            width: 35%;
+            margin-left: 1%;
+            h1{
+                font-size: 60px;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.adverst {
+  background-color: #bcd5cb;
+  display: inline-block;
+  width: 100%;
+}
+.adverst .adverstContainer {
+  max-width: 1350px;
+}
+.adverst .adverstContainer .adverstWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  width: 35%;
+  margin-left: 1%;
+}
+.adverst .adverstContainer .adverstWrapper h1 {
+  font-size: 60px;
+  color: #fff;
+}/*# sourceMappingURL=adverst.css.map */
