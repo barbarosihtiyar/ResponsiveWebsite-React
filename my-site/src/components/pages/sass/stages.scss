@@ -1,0 +1,61 @@
+@import "variables";
+
+.stage{
+    .stageContainer{
+        .stageWrapper{
+            max-width: 1250px;
+            margin: 0 auto;
+            margin-bottom: 5%;
+            .stageText{
+                margin-top:3%;
+                span{
+                    @include font(170px,600,black);
+                    display: block;
+                    height: 150px;
+
+                &:nth-child(even){
+                    text-align: right;
+                }
+                &:nth-child(3){
+                    margin-bottom: 10%;
+                    margin-left: 10%;
+                }
+                }
+            }
+            .image-stage{
+                display: flex;
+                gap: 10%;
+                .image{
+                    margin-bottom: 5%;
+                    img{
+                        width: 900px;
+                        border-radius: 5px;
+                    }
+                }
+            .stages{
+                display: flex;
+                flex-direction: column;
+                .partStages{
+                    display: flex;
+                    align-items: flex-end;
+                    gap: 8%;
+                    .number{
+                        @include font(100px,600,black)
+                    }
+                    .stagesText{
+                        display: flex;
+                        flex-direction: column;
+                        .stagesTitle{
+                            @include font(24px,600,black);
+                        }
+                        .stagesP{
+                            @include font(18px,600,black);
+                            width: 85%;
+                        }
+                    }
+                }
+            }
+            }
+        }
+    }
+}

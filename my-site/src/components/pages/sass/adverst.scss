@@ -1,0 +1,45 @@
+@import "variables";
+
+
+.adverst{
+    background-color: #bcd5cb;
+    display: inline-block;
+    width: 100%;    
+    background:url(../../../images/background-3-1440.webp);
+    background-size: cover;
+    .adverstContainer{
+        max-width: 1350px;
+        .adverstWrapper{
+            display: flex;
+            flex-direction: column;
+            margin-top: 8%;
+            width: 35%;
+            margin-left: 3%;
+            h1{
+                font-size: 60px;
+                color: #fff;
+            }
+            .span{
+                display:flex;
+                flex-direction: column; 
+                margin-bottom: 5%;
+            span{
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+                }
+            .getAdverstStarted{
+                width: 35%;
+                border: none;
+                outline: none;
+                background-color: #fff;
+                color: black;
+                font-size: 17px;
+                font-weight: 600;
+                padding: 18px;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}

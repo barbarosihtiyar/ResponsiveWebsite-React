@@ -2,12 +2,15 @@
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: transparent;
+  transition: background-color ease-in 1s;
+  z-index: 99;
 }
 .header .headerContainer .headerWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1%;
+  padding: 20px;
   color: #fff;
   margin-right: 1.5%;
   margin-left: 1.5%;
@@ -24,11 +27,15 @@
   font-size: 25px;
   font-weight: 500;
 }
+.header .headerContainer .headerWrapper .links {
+  width: 30%;
+}
 .header .headerContainer .headerWrapper .links ul {
   display: flex;
   list-style-type: none;
   gap: 10%;
   text-decoration: none;
+  gap: 5%;
 }
 .header .headerContainer .headerWrapper .links ul li a {
   text-decoration: none;
@@ -40,6 +47,21 @@
 }
 .header .headerContainer .headerWrapper .userEntry .logIn {
   display: inline-block;
-  margin-left: -15%;
-  margin-right: 10%;
+  margin-left: -20%;
+  margin-right: 18%;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+.header .headerContainer .headerWrapper .userEntry .getStarted {
+  cursor: pointer;
+  padding: 20px;
+  background-color: #fff;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.active {
+  background: black;
 }/*# sourceMappingURL=Header.css.map */

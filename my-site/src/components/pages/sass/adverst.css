@@ -1,0 +1,42 @@
+.adverst {
+  background-color: #bcd5cb;
+  display: inline-block;
+  width: 100%;
+  background: url(../../../images/background-3-1440.webp);
+  background-size: cover;
+}
+.adverst .adverstContainer {
+  max-width: 1350px;
+}
+.adverst .adverstContainer .adverstWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  width: 35%;
+  margin-left: 3%;
+}
+.adverst .adverstContainer .adverstWrapper h1 {
+  font-size: 60px;
+  color: #fff;
+}
+.adverst .adverstContainer .adverstWrapper .span {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+.adverst .adverstContainer .adverstWrapper .span span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+.adverst .adverstContainer .adverstWrapper .getAdverstStarted {
+  width: 35%;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  color: black;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 18px;
+  margin-bottom: 5%;
+}/*# sourceMappingURL=adverst.css.map */

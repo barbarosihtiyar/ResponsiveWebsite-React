@@ -1,0 +1,62 @@
+.stage .stageContainer .stageWrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+}
+.stage .stageContainer .stageWrapper .stageText {
+  margin-top: 3%;
+}
+.stage .stageContainer .stageWrapper .stageText span {
+  font-size: 170px;
+  font-weight: 600;
+  color: black;
+  display: block;
+  height: 150px;
+}
+.stage .stageContainer .stageWrapper .stageText span:nth-child(even) {
+  text-align: right;
+}
+.stage .stageContainer .stageWrapper .stageText span:nth-child(3) {
+  margin-bottom: 10%;
+  margin-left: 10%;
+}
+.stage .stageContainer .stageWrapper .image-stage {
+  display: flex;
+  gap: 10%;
+}
+.stage .stageContainer .stageWrapper .image-stage .image {
+  margin-bottom: 5%;
+}
+.stage .stageContainer .stageWrapper .image-stage .image img {
+  width: 900px;
+  border-radius: 5px;
+}
+.stage .stageContainer .stageWrapper .image-stage .stages {
+  display: flex;
+  flex-direction: column;
+}
+.stage .stageContainer .stageWrapper .image-stage .stages .partStages {
+  display: flex;
+  align-items: flex-end;
+  gap: 8%;
+}
+.stage .stageContainer .stageWrapper .image-stage .stages .partStages .number {
+  font-size: 100px;
+  font-weight: 600;
+  color: black;
+}
+.stage .stageContainer .stageWrapper .image-stage .stages .partStages .stagesText {
+  display: flex;
+  flex-direction: column;
+}
+.stage .stageContainer .stageWrapper .image-stage .stages .partStages .stagesText .stagesTitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.stage .stageContainer .stageWrapper .image-stage .stages .partStages .stagesText .stagesP {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  width: 85%;
+}/*# sourceMappingURL=stages.css.map */
