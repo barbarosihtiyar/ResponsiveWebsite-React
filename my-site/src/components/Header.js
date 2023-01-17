@@ -8,9 +8,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import {useState} from 'react'
 function Header() {
+  const [header,setHeader] = useState(false);
+
+ 
   return (
-    <div className='header'>
+    <div className={header ? "header" : "header active"}>
       <div className="headerContainer">
         <div className="headerWrapper">
           <div className="logo">
