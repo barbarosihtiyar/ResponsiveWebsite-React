@@ -1,0 +1,44 @@
+ @import "variables";
+
+ .solution{
+    .solutionContainer{
+        max-width: 1250px;
+        margin: 0 auto;
+        padding-top: 3%;
+        .solutionWrapper{
+            .solutionTitle{
+                h1{
+                    @include font(100px,600,black);
+                    text-align: center;
+                    line-height: 90px;
+                }
+                .text-left{
+                    text-align: left;
+                }
+            }
+            .solutionImageText{
+                display: flex;
+                align-items: center;
+                padding-top: 5%;
+                gap: 10%;
+                .solutionImage{
+                    img{
+                        width: 669px;
+                    }
+                }
+                .solutionText{
+                    h3{
+                        @include font(30px,600,black);
+                        width: 80%;
+                        line-height: 30px;
+                    }
+                    p{
+                        @include font(15px,500,black);
+                        width: 85%;
+                        padding-top: 5%;
+                    }
+                }
+            }
+        }
+    }
+ }

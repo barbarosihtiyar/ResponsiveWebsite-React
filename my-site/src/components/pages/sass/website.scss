@@ -2,7 +2,6 @@
 
 .website{
     background-color: black;
-    margin-bottom: 10%;
     .websiteContainer{
         .websiteWrapper{
             max-width: 1250px;
@@ -109,6 +108,32 @@
                     }
                 }
             }
+            .madeSquareSpace{
+                margin-top: 10%;
+                .squareSpaceFlex{
+                    display: flex;
+                    align-items: center;
+                    gap: 10%;
+                    .squareImage{
+                        margin-bottom: 5%;
+                        img{
+                            width: 730px;
+                        }
+                    }
+                .squareSpaceText{
+                    h2{
+                        @include font(40px,600,#fff);
+                        line-height: 40px;
+                        width:70%;
+                    }
+                    p{
+                        margin-top: 5%;
+                        @include font(15px,600,#fff);
+                        width: 50%;
+                    }
+                }
+                }
+            }
         }
     }
 }
@@ -117,3 +142,4 @@
 .active{
     display: block !important;
 }
+

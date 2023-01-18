@@ -1,6 +1,5 @@
 .website {
   background-color: black;
-  margin-bottom: 10%;
 }
 .website .websiteContainer .websiteWrapper {
   max-width: 1250px;
@@ -118,6 +117,34 @@
 .website .websiteContainer .websiteWrapper .websitesLink .linksPhoto img {
   width: 719px;
   display: none;
+}
+.website .websiteContainer .websiteWrapper .madeSquareSpace {
+  margin-top: 10%;
+}
+.website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareImage {
+  margin-bottom: 5%;
+}
+.website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareImage img {
+  width: 730px;
+}
+.website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 40px;
+  width: 70%;
+}
+.website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText p {
+  margin-top: 5%;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  width: 50%;
 }
 
 .active {
