@@ -1,0 +1,52 @@
+.market {
+  background-color: #F0EBE3;
+}
+.market .marketContainer {
+  padding-top: 5%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.market .marketContainer .marketWrapper .marketTitle h1 {
+  font-size: 140px;
+  font-weight: 600;
+  color: black;
+  line-height: 120px;
+}
+.market .marketContainer .marketWrapper .marketTitle .text-rigth {
+  text-align: right;
+  width: 92%;
+  margin-left: 8%;
+}
+.market .marketContainer .marketWrapper .marketInfo {
+  padding-top: 7%;
+  display: flex;
+  gap: 10%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5%;
+}
+.market .marketContainer .marketWrapper .marketInfo .marketImage img {
+  width: auto;
+}
+.market .marketContainer .marketWrapper .marketInfo .marketText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.market .marketContainer .marketWrapper .marketInfo .marketText h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  width: 75%;
+  line-height: 45px;
+}
+.market .marketContainer .marketWrapper .marketInfo .marketText p {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  width: 85%;
+  padding-bottom: 12%;
+}
+
+.marketSecond {
+  border-bottom: none !important;
+}/*# sourceMappingURL=market.css.map */

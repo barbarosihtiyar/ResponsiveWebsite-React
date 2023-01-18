@@ -1,0 +1,111 @@
+@import "variables";
+
+.product{
+    background: #5B6166;
+    .productContainer{
+        max-width: 1250px;
+        margin: 0 auto;
+        .productWrapper{
+            .productFirst{
+                position: relative;
+                z-index: 0;
+                border-bottom: 1px solid #fff;
+                    .productTitle{
+                        position: relative;
+                        padding-top: 5%;
+                        @include font(110px,600,#fff);
+                        width: 70%;
+                        line-height: 100px;
+                        letter-spacing:5px;
+                        z-index: 2;
+                        }
+                p{
+                    @include font(20px,600,#fff);
+                    width: 35%;
+                    margin-top: 3%;
+                    margin-bottom: 2%;
+                    line-height: 25px;
+                }
+                button{
+                    border: none;
+                    padding: 15px;
+                    background-color: #fff;
+                    @include font(13px,600,black);
+                    margin-bottom: 37%;
+                }
+                .image{
+                    position: absolute;
+                    max-width: 1000px;
+                    max-height: 1000px;
+                    clip-path: polygon(25.2336% 16.1372%, 89.0078% 19.6237%, 74.7664% 83.8628%, 10.9922% 80.3763%);
+                    top: 6.5%;
+                    left: 30%;
+                    z-index: 0;    
+                }
+            }
+            .productSecond{
+                display: flex;
+                padding-top:5%;
+                border-bottom: 1px solid #fff;
+                padding-bottom: 5%;
+                .productSecondText{
+                    h4{
+                        @include font(55px,500,#fff);
+                        width: 75%;
+                        line-height: 50px;
+                        margin-bottom: 32%;
+                    }
+                    p{
+                        @include font(18px,600,#fff);
+                        width: 85%;
+                    }
+                }
+                .productSecondImage{
+                    width: auto;
+                }
+            }
+            .productThird{
+                display: flex;
+                padding-top:5%;
+                border-bottom: 1px solid #fff;
+                padding-bottom: 5%;
+                .productThirdText{
+                    h4{
+                        @include font(55px,500,#fff);
+                        width: 75%;
+                        line-height: 50px;
+                        margin-bottom: 43%;
+                    }
+                    p{
+                        @include font(18px,600,#fff);
+                        width: 85%;
+                    }
+                }
+                .productThirdImage{
+                    width: auto;
+                }
+            }
+            .productFourth{
+                display: flex;
+                padding-top:5%;
+                border-bottom: 1px solid #fff;
+                padding-bottom: 5%;
+                .productFourthText{
+                    h4{
+                        @include font(55px,500,#fff);
+                        width: 75%;
+                        line-height: 50px;
+                        margin-bottom: 18%;
+                    }
+                    p{
+                        @include font(18px,600,#fff);
+                        width: 85%;
+                    }
+                }
+                .productFourthImage{
+                    width: auto;
+                }
+            }
+        }
+    }
+}

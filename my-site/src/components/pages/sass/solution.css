@@ -1,0 +1,38 @@
+.solution .solutionContainer {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding-top: 3%;
+}
+.solution .solutionContainer .solutionWrapper .solutionTitle h1 {
+  font-size: 100px;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  line-height: 90px;
+}
+.solution .solutionContainer .solutionWrapper .solutionTitle .text-left {
+  text-align: left;
+}
+.solution .solutionContainer .solutionWrapper .solutionImageText {
+  display: flex;
+  align-items: center;
+  padding-top: 5%;
+  gap: 10%;
+}
+.solution .solutionContainer .solutionWrapper .solutionImageText .solutionImage img {
+  width: 669px;
+}
+.solution .solutionContainer .solutionWrapper .solutionImageText .solutionText h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  width: 80%;
+  line-height: 30px;
+}
+.solution .solutionContainer .solutionWrapper .solutionImageText .solutionText p {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  width: 85%;
+  padding-top: 5%;
+}/*# sourceMappingURL=solution.css.map */
