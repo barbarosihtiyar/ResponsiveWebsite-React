@@ -1,10 +1,12 @@
  @import "variables";
 
  .solution{
+    padding-bottom: 5%;
     .solutionContainer{
         max-width: 1250px;
         margin: 0 auto;
         padding-top: 3%;
+        padding-bottom: 5%;
         .solutionWrapper{
             .solutionTitle{
                 h1{
@@ -39,6 +41,186 @@
                     }
                 }
             }
+            .solutionExplore{
+                position: relative;
+                h3{
+                    @include font(45px,600,black);
+                    width: 50%;
+                    line-height: 50px;
+                }
+                .explorePhoto{
+                    display: flex;
+                    img{
+                        clip-path:polygon(10.1738% 20.6981%, 78.8458% 11.7754%, 89.8262% 79.3019%, 21.1542% 88.2246%);
+                        width: 432px;
+                    }
+                }
+                .absoluteTextExplore{
+                    .firstPhotoText{
+                        position: absolute;
+                        bottom: 6%;
+                        z-index: 1;
+                        left: 8.5%;
+                        @include font(15px,600,black);
+                    }
+                    .firstPhotoText2{
+                        position: absolute;
+                        bottom: 3%;
+                        z-index: 1;
+                        left: 8.5%;
+                        @include font(15px,600,black);
+                    }
+                    .secondPhotoText{
+                        position: absolute;
+                        bottom: 6%;
+                        z-index: 1;
+                        left: 43%;
+                        @include font(15px,600,black);
+                    }
+                    .secondPhotoText2{
+                        position: absolute;
+                        bottom: 3%;
+                        z-index: 1;
+                        left: 43%;
+                        @include font(15px,600,black);  
+                    }
+                    .thirdPhotoText{
+                        position: absolute;
+                        bottom: 6%;
+                        z-index: 1;
+                        left: 78%;
+                        @include font(15px,600,black);
+                    }
+                    .thirdPhotoText2{
+                        position: absolute;
+                        position: absolute;
+                        bottom: 3%;
+                        z-index: 1;
+                        left: 78%;
+                        @include font(15px,600,black);  
+                    }
+                }
+            }
         }
     }
+    .learnHowTo{
+        background-color: #F5F5F5;
+        padding-top: 4%;
+        .learnHowToContainer{
+            max-width: 1250px;
+            margin: 0 auto;
+            .learnHowToWrapper{
+                .learnTitle{    
+                    padding-bottom: 5%;
+                    border-bottom: 1px solid gray;
+                    h1{
+                        @include font(40px,600,black);
+                        width: 20%;
+                        line-height: 40px;
+                    }
+                }
+                .learnImageText{
+                    padding-top: 3%;
+                    display: flex;
+                    gap: 8%;
+                    align-items: center;
+                    border-bottom: 1px solid gray;
+                    padding-bottom: 3%;
+                &:last-child{
+                    border-bottom: none;
+                }
+                    .learnImage{
+                        h3{
+                                @include font(15px,600,black);
+                                margin-bottom: 3%;
+                        }
+                        img{
+                            width: 604px;
+                        }
+                    }
+                    .learnStages{
+                        display: flex;
+                        flex-direction: column;
+                        .commonStages{
+                            display: flex;
+                            gap: 3%;
+                            margin-bottom: 3%;
+                            width: 88%;
+                            @include font(15px,600,black);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .covered{
+        .coveredContainer{
+            max-width: 1250px;
+            margin: 0 auto;
+            .coveredWrapper{
+                .coveredTitleText{
+                    margin-bottom: 1%;
+                    padding-top: 3%;
+                    h3{
+                        @include font(33px,600,black);
+                        width: 30%;
+                        line-height: 38px;
+                    }
+                }
+                .coveredCollapse{
+                    display: flex;
+                    justify-content: space-between;
+                    .coveredText{
+                        p{
+                            @include font(16px,600,black);
+                            width: 60%;
+                            line-height: 25px;
+                        }
+                        }
+                    .allCollapse{
+                        width: 100%;
+                    .collapse{
+                        padding-top: 1%;
+                        padding-bottom: 2%;
+                        border-bottom: 1px solid gray;
+                        display: flex;
+                        flex-direction: column;
+                        .firstTitleIcon{
+                            border-top: 1px solid gray;
+                            padding-top: 5px;
+                        }
+                        .titleIcon{
+                            cursor: pointer;
+                            display: flex;
+                            align-items: center;
+                            h4{
+                                width: 100%;
+                                line-height: 50px;
+                            
+                            }
+
+                            .plusIcon{
+                                font-size: 20px;
+                                font-weight: 600;
+                            }
+                        }
+                        p{
+                            @include font(12px,600,black);
+                            line-height: 20px;
+                            width: 63%;
+                            word-break:normal;
+                        }
+                    }
+                }
+                }
+            }
+        }
+    }
+ }
+
+ .none{
+    display: none;
+ }
+ .block{
+    display: block;
  }

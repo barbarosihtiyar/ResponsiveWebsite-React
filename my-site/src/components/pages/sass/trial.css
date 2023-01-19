@@ -1,0 +1,33 @@
+.trial {
+  padding: 5% 0;
+  background-color: black;
+}
+.trial .trialContainer {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.trial .trialContainer .trialWrapper .trialTextImage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.trial .trialContainer .trialWrapper .trialTextImage .image {
+  width: 120%;
+}
+.trial .trialContainer .trialWrapper .trialTextImage .image img {
+  width: 653px;
+}
+.trial .trialContainer .trialWrapper .trialTextImage .text h2 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #fff;
+  width: 85%;
+  line-height: 60px;
+}
+.trial .trialContainer .trialWrapper .trialTextImage .text span {
+  margin-top: 5%;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}/*# sourceMappingURL=trial.css.map */

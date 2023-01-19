@@ -1,0 +1,35 @@
+@import "variables";
+
+.trial{
+    padding: 5% 0;
+    background-color: black;
+    .trialContainer{
+        max-width: 1250px;
+        margin: 0 auto;
+        .trialWrapper{
+            .trialTextImage{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .image{
+                    width: 120%;
+                    img{
+                    width: 653px;
+                    }
+                }
+            .text{
+                h2{
+                    @include font(70px,600,#fff);
+                    width: 85%;
+                    line-height: 60px;
+                }
+                span{
+                    margin-top: 5%;
+                    display: inline-block;
+                    @include font(20px,600,#fff);
+                }
+            }
+            }
+        }
+    }
+}

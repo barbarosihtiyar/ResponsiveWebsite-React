@@ -1,7 +1,11 @@
+.solution {
+  padding-bottom: 5%;
+}
 .solution .solutionContainer {
   max-width: 1250px;
   margin: 0 auto;
   padding-top: 3%;
+  padding-bottom: 5%;
 }
 .solution .solutionContainer .solutionWrapper .solutionTitle h1 {
   font-size: 100px;
@@ -35,4 +39,198 @@
   color: black;
   width: 85%;
   padding-top: 5%;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore {
+  position: relative;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore h3 {
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  width: 50%;
+  line-height: 50px;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .explorePhoto {
+  display: flex;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .explorePhoto img {
+  -webkit-clip-path: polygon(10.1738% 20.6981%, 78.8458% 11.7754%, 89.8262% 79.3019%, 21.1542% 88.2246%);
+          clip-path: polygon(10.1738% 20.6981%, 78.8458% 11.7754%, 89.8262% 79.3019%, 21.1542% 88.2246%);
+  width: 432px;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .absoluteTextExplore .firstPhotoText {
+  position: absolute;
+  bottom: 6%;
+  z-index: 1;
+  left: 8.5%;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .absoluteTextExplore .firstPhotoText2 {
+  position: absolute;
+  bottom: 3%;
+  z-index: 1;
+  left: 8.5%;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .absoluteTextExplore .secondPhotoText {
+  position: absolute;
+  bottom: 6%;
+  z-index: 1;
+  left: 43%;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .absoluteTextExplore .secondPhotoText2 {
+  position: absolute;
+  bottom: 3%;
+  z-index: 1;
+  left: 43%;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .absoluteTextExplore .thirdPhotoText {
+  position: absolute;
+  bottom: 6%;
+  z-index: 1;
+  left: 78%;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.solution .solutionContainer .solutionWrapper .solutionExplore .absoluteTextExplore .thirdPhotoText2 {
+  position: absolute;
+  position: absolute;
+  bottom: 3%;
+  z-index: 1;
+  left: 78%;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.solution .learnHowTo {
+  background-color: #F5F5F5;
+  padding-top: 4%;
+}
+.solution .learnHowTo .learnHowToContainer {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnTitle {
+  padding-bottom: 5%;
+  border-bottom: 1px solid gray;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnTitle h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  width: 20%;
+  line-height: 40px;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText {
+  padding-top: 3%;
+  display: flex;
+  gap: 8%;
+  align-items: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 3%;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText:last-child {
+  border-bottom: none;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText .learnImage h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 3%;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText .learnImage img {
+  width: 604px;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText .learnStages {
+  display: flex;
+  flex-direction: column;
+}
+.solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText .learnStages .commonStages {
+  display: flex;
+  gap: 3%;
+  margin-bottom: 3%;
+  width: 88%;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+.solution .covered .coveredContainer {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredTitleText {
+  margin-bottom: 1%;
+  padding-top: 3%;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredTitleText h3 {
+  font-size: 33px;
+  font-weight: 600;
+  color: black;
+  width: 30%;
+  line-height: 38px;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse {
+  display: flex;
+  justify-content: space-between;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .coveredText p {
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  width: 60%;
+  line-height: 25px;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse {
+  width: 100%;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse {
+  padding-top: 1%;
+  padding-bottom: 2%;
+  border-bottom: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse .firstTitleIcon {
+  border-top: 1px solid gray;
+  padding-top: 5px;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse .titleIcon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse .titleIcon h4 {
+  width: 100%;
+  line-height: 50px;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse .titleIcon .plusIcon {
+  font-size: 20px;
+  font-weight: 600;
+}
+.solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse p {
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+  line-height: 20px;
+  width: 63%;
+  word-break: normal;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
 }/*# sourceMappingURL=solution.css.map */
