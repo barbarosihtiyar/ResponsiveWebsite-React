@@ -3,7 +3,15 @@ import "./footer.css"
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+    <div className="footerContainer">
+      <div className="footerWrapper">
+        <div className="footerTextIcon">
+        © 2023  · Made with 💕 by Barbaros Ihtiyar
+        </div>
+      </div>
+    </div>
+    </div>
   )
 }
 

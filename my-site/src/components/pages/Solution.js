@@ -280,7 +280,7 @@ function Solution() {
                     <h4 className="firstTitle">Why should I have a website?</h4>
                     {firstClick ? <BiPlus className="plusIcon" /> : <AiOutlineMinus className="plusIcon" />}
                   </div>
-                  <p  className={firstClick ? "none" : "block"}>
+                  <p  className={firstClick ? "none" : "blockFirst"}>
                     A website is the first step toward growing an online
                     presence for your business or passion project, whether
                     you’re looking to sell online or create a portfolio. With
@@ -297,7 +297,7 @@ function Solution() {
                     <h4>What does a Squarespace subscription include?</h4>
                     {secondClick ? <BiPlus className="plusIcon" /> : <AiOutlineMinus className="plusIcon" />}
                   </div>
-                  <p className={secondClick ? "none" : "block"}> 
+                  <p className={secondClick ? "none" : "blockSecond"}> 
                     Squarespace is an all-in-one content management system, or
                     CMS. With a single subscription, you can make a website,
                     host your content, register your own custom domain name,
@@ -313,7 +313,7 @@ function Solution() {
                     <h4>Is Squarespace right for me?</h4>
                     {thirdClick ? <BiPlus className="plusIcon" /> : <AiOutlineMinus className="plusIcon" />}
                   </div>
-                  <p className={thirdClick ? "none" : "block"}>
+                  <p className={thirdClick ? "none" : "blockThird"}>
                     Everyone has unique needs for their website, so there’s one
                     way to know if Squarespace is right for you: try it!
                   </p>
@@ -323,7 +323,7 @@ function Solution() {
                     <h4>How do I start building my website?</h4>
                     {fourthClick ? <BiPlus className="plusIcon" /> : <AiOutlineMinus className="plusIcon" />}
                   </div>
-                  <p className={fourthClick ? "none" : "block"}>
+                  <p className={fourthClick ? "none" : "blockFourth"}>
                     Squarespace makes starting a beautifully-designed website
                     easy. Choose from our library of website templates to find a
                     starting point, then secure a custom domain that fits your
@@ -338,7 +338,7 @@ function Solution() {
                     <h4>Can someone build my website for me?</h4>
                     {fivethClick ? <BiPlus className="plusIcon" /> : <AiOutlineMinus className="plusIcon" />}
                   </div>
-                  <p className={fivethClick ? "none" : "block"}>
+                  <p className={fivethClick ? "none" : "blockFiveth"}>
                     Yes. While Squarespace is a great website builder for a DIY
                     approach, many web designers specialize in building
                     Squarespace sites for clients.
@@ -349,7 +349,7 @@ function Solution() {
                     <h4>How do I get a custom domain for my website?</h4>
                     {sixthClick ? <BiPlus className="plusIcon" /> : <AiOutlineMinus className="plusIcon" />}
                   </div>
-                  <p className={sixthClick ? "none" : "block"}>
+                  <p className={sixthClick ? "none" : "blockSixth"}>
                     When choosing an annual website plan, you can register your
                     first domain through Squarespace for free for its first
                     year. You can also transfer your domain to Squarespace if
@@ -361,7 +361,7 @@ function Solution() {
                     <h4>How do I start selling online?</h4>
                     {seventhClick ? <BiPlus className="plusIcon" /> : <AiOutlineMinus className="plusIcon" />}
                   </div>
-                  <p className={seventhClick ? "none" : "block"}>
+                  <p className={seventhClick ? "none" : "blockSeventh"}>
                     Set up and customize your online store with rich product
                     merchandising tools, designed to showcase your products at
                     their absolute best. Once you connect a payment processor to
