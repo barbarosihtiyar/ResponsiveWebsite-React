@@ -5,6 +5,7 @@ import Website from './pages/Website'
 import Product from './pages/Product'
 import Market from './pages/Market'
 import Solution from './pages/Solution'
+import Trial from './pages/Trial'
 
 function Homepage() {
   return (
@@ -15,6 +16,7 @@ function Homepage() {
         <Product />
         <Market />
         <Solution />
+        <Trial />
     </div>
   )
 }
