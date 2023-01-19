@@ -49,6 +49,7 @@
   color: black;
   width: 50%;
   line-height: 50px;
+  padding-top: 5%;
 }
 .solution .solutionContainer .solutionWrapper .solutionExplore .explorePhoto {
   display: flex;
@@ -225,12 +226,45 @@
   line-height: 20px;
   width: 63%;
   word-break: normal;
+  transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .none {
-  display: none;
+  height: 0;
+  opacity: 0;
 }
 
-.block {
-  display: block;
+.blockFirst {
+  height: 180px;
+  opacity: 1;
+}
+
+.blockSecond {
+  height: 180px;
+  opacity: 1;
+}
+
+.blockThird {
+  height: 80px;
+  opacity: 1;
+}
+
+.blockFourth {
+  height: 180px;
+  opacity: 1;
+}
+
+.blockFiveth {
+  height: 70px;
+  opacity: 1;
+}
+
+.blockSixth {
+  height: 100px;
+  opacity: 1;
+}
+
+.blockSeventh {
+  height: 180px;
+  opacity: 1;
 }/*# sourceMappingURL=solution.css.map */
