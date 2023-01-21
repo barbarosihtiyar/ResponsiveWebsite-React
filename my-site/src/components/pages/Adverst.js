@@ -2,7 +2,7 @@ import React from "react";
 import "./sass/adverst.css";
 function Adverst() {
   return (
-    <div className="adverst">
+    <div  id="homepage" className="adverst">
       <div className="adverstContainer">
         <div className="adverstWrapper">
           <h1 className="adverstTitle">EVERYTHING TO SELL ANYTHING</h1>

@@ -258,7 +258,7 @@ function Solution() {
           </div>
         </div>
       </div>
-      <div className="covered">
+      <div className="covered" id="covered">
         <div className="coveredContainer">
           <div className="coveredWrapper">
             <div className="coveredTitleText">

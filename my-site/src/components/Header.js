@@ -2,12 +2,7 @@ import React from 'react'
 import "./Header.css";
 import "../App.css";
 import {GiUbisoftSun} from "react-icons/gi";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import {Link} from 'react-scroll'
 import {useState} from 'react'
 function Header() {
   const [header,setHeader] = useState(false);
@@ -19,21 +14,20 @@ function Header() {
         <div className="headerWrapper">
           <div className="logo">
           <GiUbisoftSun className='logoIcon' />
-          <span className="logoTitle">SQUARESPACE</span>
+          <span className="logoTitle"><Link to="homepage">SQUARESPACE</Link></span>
           </div>
-          <Router>
           <div className="links">
           <ul>
             <li className="linkProduct">
-              <Link to="#footer">Product</Link>
+              <Link to="website">Product</Link>
             </li>
             <li className="linkTemplates">
-              <Link to="/Templates">
+              <Link to="market">
                 Templates
               </Link>
               </li>
               <li className="linkResources">
-              <Link to="Resources">
+              <Link to="covered">
                 Resources
               </Link>
               </li>
@@ -47,18 +41,6 @@ function Header() {
               GET STARTED
             </span>
           </div>
-          <Routes>
-            <Route path='/product'>
-
-            </Route>
-            <Route path='/users'>
-
-            </Route>
-            <Route path='/'>
-
-            </Route>
-          </Routes>
-          </Router>
         </div>
       </div>
     </div>

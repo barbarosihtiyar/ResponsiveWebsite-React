@@ -20,6 +20,22 @@ function Website() {
   const [restaurants, setRestaurants] = useState(false);
   const [service, setService] = useState(false);
 
+  const [change,setChange] = useState(false);
+  const [displayText,setDisplayText] = useState(false);
+
+  const changevalueonScrool = () => {
+    const scrollvalue = document.documentElement.scrollTop;
+
+    if(scrollvalue > 2150){
+      setChange(true);
+    }
+    if(scrollvalue > 2650){
+      setDisplayText(true) (true);
+    }
+  }
+  window.addEventListener("scroll",changevalueonScrool);
+
+
   const changeValOnlineStore = () => {
     setOnlinestore(true);
     setBlogs(false);
@@ -85,7 +101,7 @@ function Website() {
   };
 
   return (
-    <div className="website">
+    <div className="website" id="website">
       <div className="websiteContainer">
         <div className="websiteWrapper">
           <div className="websiteTitle">
@@ -115,7 +131,7 @@ function Website() {
             </div>
           </div>
 
-          <div className="websiteTemplates">
+          <div className={change ? "websiteTemplates animate" : "websiteTemplates"}>
             <span>Website templates</span>
             <span>for every purpose</span>
             <p>
@@ -124,7 +140,7 @@ function Website() {
             </p>
           </div>
           <div className="websitesLink">
-            <div className="links">
+            <div className={displayText ? "links animate" : "links"}>
               <span onClick={changeValOnlineStore}>Online Store</span>
               <span onClick={changeValLocalBusiness}>Local Business</span>
               <span onClick={changeValPortfolio}>Portfolio</span>

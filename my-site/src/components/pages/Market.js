@@ -5,7 +5,7 @@ import marketSecond from "../../images/marketSecond.jpg"
 
 function Market() {
   return (
-    <div className='market'>
+    <div className='market' id='market'>
         <div className="marketContainer">
             <div className="marketWrapper">
                 <div className="marketTitle">

@@ -1,13 +1,31 @@
 import React from "react";
 import "./sass/stages.css";
 import fitness from "../../images/fitness.webp";
+import { useState } from "react";
 
 function Stages() {
+
+  const [change,setChange] = useState(false);
+  const [displayText,setDisplayText] = useState(false);
+
+  const changevalueonScrool = () => {
+    const scrollvalue = document.documentElement.scrollTop;
+
+    if(scrollvalue > 250){
+      setChange(true);
+    }
+    if(scrollvalue > 650){
+      setDisplayText(true) (true);
+    }
+  }
+
+  window.addEventListener("scroll",changevalueonScrool);
+
   return (
     <div className="stage">
       <div className="stageContainer">
         <div className="stageWrapper">
-          <div className="stageText">
+          <div className={change ? "stageText opacity-Yposition" : "stageText"}>
             <span>GROW YOUR</span>
             <span>BUSINESS</span>
             <span>ONLINE</span>
@@ -17,7 +35,7 @@ function Stages() {
               <img src={fitness} alt="" />
             </div>
             <div className="stages">
-              <div className="partStages first">
+              <div className={displayText ? "partStages first" : "partStages"}>
                 <span className="number">1</span>
                 <div className="stagesText">
                   <span className="stagesTitle">Create a website</span>
@@ -28,7 +46,7 @@ function Stages() {
                   </p>
                 </div>
               </div>
-              <div className="partStages second">
+              <div className={displayText ? "partStages second" : "partStages"}>
                 <span className="number">2</span>
                 <div className="stagesText">
                   <span className="stagesTitle">Ecommerce made easy</span>
@@ -39,7 +57,7 @@ function Stages() {
                   </p>
                 </div>
               </div>
-              <div className="partStages third">
+              <div className={displayText ? "partStages third" : "partStages"}>
                 <span className="number">3</span>
                 <div className="stagesText">
                   <span className="stagesTitle">Market your business</span>
