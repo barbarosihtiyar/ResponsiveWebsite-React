@@ -79,6 +79,9 @@
   display: flex;
   flex-direction: column;
   margin-top: 5%;
+  opacity: 0;
+  transform: translateX(10%);
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .website .websiteContainer .websiteWrapper .websiteTemplates span {
   font-size: 50px;
@@ -106,6 +109,10 @@
   font-weight: 600;
   color: #fff;
   line-height: 30px;
+  border-width: 0;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transform: translateX(50%);
 }
 .website .websiteContainer .websiteWrapper .websitesLink .links span {
   cursor: pointer;
@@ -149,4 +156,9 @@
 
 .active {
   display: block !important;
+}
+
+.animate {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
 }/*# sourceMappingURL=website.css.map */

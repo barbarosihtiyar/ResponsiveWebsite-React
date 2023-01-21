@@ -73,6 +73,9 @@
                 display: flex;
                 flex-direction: column;
                 margin-top: 5%;
+                opacity: 0;
+                transform: translateX(10%);
+                transition: all 0.8s cubic-bezier(.165,.84,.44,1);
                 span{
                     @include font(50px,500,#fff);
                     line-height:50px
@@ -93,6 +96,10 @@
                     flex-direction: column;
                     @include font(35px,600,#fff);
                     line-height: 30px;
+                    border-width: 0;
+                    opacity: 0;
+                    transition: all .8s cubic-bezier(.165,.84,.44,1) ;
+                    transform: translateX(50%);    
                     span{
                         cursor: pointer;
                         margin-bottom: 8%;
@@ -143,3 +150,7 @@
     display: block !important;
 }
 
+.animate{
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}

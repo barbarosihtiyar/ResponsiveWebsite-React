@@ -8,6 +8,9 @@
             margin-bottom: 5%;
             .stageText{
                 margin-top:3%;
+                transform: translateY(-50%);
+                opacity: 0;
+                transition: all 0.6s cubic-bezier(.165,.84,.44,1);
                 span{
                     @include font(170px,600,black);
                     display: block;
@@ -22,6 +25,11 @@
                 }
                 }
             }
+            .opacity-Yposition{
+                opacity: 1;
+                transform: translateY(0);
+            }
+
             .image-stage{
                 display: flex;
                 gap: 10%;
@@ -39,6 +47,7 @@
                     display: flex;
                     align-items: flex-end;
                     gap: 8%;
+                    opacity: 0;
                     .number{
                         @include font(100px,600,black)
                     }
@@ -53,6 +62,18 @@
                             width: 85%;
                         }
                     }
+                }
+                .first{
+                    opacity: 1;
+                    transition: opacity 0.6s cubic-bezier(.455,.03,.515,.955);
+                }
+                .second{
+                    opacity: 1;
+                    transition: opacity 1s cubic-bezier(.455,.03,.515,.955);
+                }
+                .third{
+                    opacity: 1;
+                    transition: opacity 1.4s cubic-bezier(.455,.03,.515,.955)
                 }
             }
             }
