@@ -3,6 +3,7 @@ import "./Header.css";
 import "../App.css";
 import {GiUbisoftSun} from "react-icons/gi";
 import {Link} from 'react-scroll'
+import {GoThreeBars} from 'react-icons/go';
 import {useState} from 'react'
 function Header() {
   const [header,setHeader] = useState(false);
@@ -34,6 +35,9 @@ function Header() {
           </ul>
           </div>
           <div className="userEntry">
+          <div className="hamburger">
+            <GoThreeBars />
+          </div>
             <span className="logIn">
               LOG IN
             </span>

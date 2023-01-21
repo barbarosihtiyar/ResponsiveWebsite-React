@@ -12,7 +12,7 @@ import squarespaceImage from "..//..//images/squarespace.jpg";
 import { useState } from "react";
 
 function Website() {
-  const [onlinestore, setOnlinestore] = useState(false);
+  const [onlinestore, setOnlinestore] = useState(true);
   const [blogs, setBlogs] = useState(false);
   const [localbusiness, setLocalbusiness] = useState(false);
   const [personalcv, setPersonalcv] = useState(false);
