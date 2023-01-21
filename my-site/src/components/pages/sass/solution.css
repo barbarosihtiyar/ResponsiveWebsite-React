@@ -52,7 +52,7 @@
   padding-top: 5%;
 }
 .solution .solutionContainer .solutionWrapper .solutionExplore .explorePhoto {
-  display: flex;
+  display: none;
 }
 .solution .solutionContainer .solutionWrapper .solutionExplore .explorePhoto img {
   -webkit-clip-path: polygon(10.1738% 20.6981%, 78.8458% 11.7754%, 89.8262% 79.3019%, 21.1542% 88.2246%);
@@ -115,7 +115,7 @@
   color: black;
 }
 .solution .learnHowTo {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding-top: 4%;
 }
 .solution .learnHowTo .learnHowToContainer {
@@ -227,6 +227,7 @@
   width: 63%;
   word-break: normal;
   transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+  visibility: hidden;
 }
 
 .none {
@@ -237,34 +238,41 @@
 .blockFirst {
   height: 180px;
   opacity: 1;
+  visibility: visible !important;
 }
 
 .blockSecond {
   height: 180px;
   opacity: 1;
+  visibility: visible !important;
 }
 
 .blockThird {
   height: 80px;
   opacity: 1;
+  visibility: visible !important;
 }
 
 .blockFourth {
   height: 180px;
   opacity: 1;
+  visibility: visible !important;
 }
 
 .blockFiveth {
   height: 70px;
   opacity: 1;
+  visibility: visible !important;
 }
 
 .blockSixth {
   height: 100px;
   opacity: 1;
+  visibility: visible !important;
 }
 
 .blockSeventh {
   height: 180px;
   opacity: 1;
+  visibility: visible !important;
 }/*# sourceMappingURL=solution.css.map */

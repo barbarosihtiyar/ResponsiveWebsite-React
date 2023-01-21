@@ -49,4 +49,32 @@
 
 .marketSecond {
   border-bottom: none !important;
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+  .market .marketContainer .marketWrapper .marketTitle {
+    margin: 0 5%;
+  }
+  .market .marketContainer .marketWrapper .marketTitle h1 {
+    font-size: 100px;
+    font-weight: 600;
+    color: black;
+  }
+  .market .marketContainer .marketWrapper .marketInfo {
+    margin: 0 2%;
+  }
+  .market .marketContainer .marketWrapper .marketInfo .marketText h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    width: 95%;
+  }
+  .market .marketContainer .marketWrapper .marketInfo .marketText p {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+  .market .marketContainer .marketWrapper .marketSecond .marketImage img {
+    width: 2000px;
+  }
 }/*# sourceMappingURL=market.css.map */

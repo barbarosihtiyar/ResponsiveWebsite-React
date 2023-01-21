@@ -117,4 +117,88 @@
 }
 .product .productContainer .productWrapper .productFourth .productFourthImage {
   width: auto;
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+  .product .productContainer .productWrapper .productFirst {
+    margin-left: 2%;
+  }
+  .product .productContainer .productWrapper .productFirst .productTitle {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 61px;
+  }
+  .product .productContainer .productWrapper .productFirst p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 90%;
+  }
+  .product .productContainer .productWrapper .productFirst button {
+    margin-bottom: 5%;
+    font-size: 15px;
+  }
+  .product .productContainer .productWrapper .productFirst .image {
+    display: none;
+  }
+  .product .productContainer .productWrapper .productSecond {
+    align-items: center;
+    margin: 0 2%;
+  }
+  .product .productContainer .productWrapper .productSecond .productSecondText h4 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .product .productContainer .productWrapper .productSecond .productSecondText p {
+    margin-top: 4%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .product .productContainer .productWrapper .productSecond .productSecondImage {
+    width: auto;
+  }
+  .product .productContainer .productWrapper .productThird {
+    margin: 0 2%;
+    align-items: center;
+  }
+  .product .productContainer .productWrapper .productThird .productThirdText h4 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .product .productContainer .productWrapper .productThird .productThirdText p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 4%;
+  }
+  .product .productContainer .productWrapper .productThird .productThirdImage img {
+    width: 820px;
+  }
+  .product .productContainer .productWrapper .productFourth {
+    align-items: center;
+    margin: 0 2%;
+  }
+  .product .productContainer .productWrapper .productFourth .productFourthText h4 {
+    font-size: 38px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+  }
+  .product .productContainer .productWrapper .productFourth .productFourthText p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 4%;
+  }
+  .product .productContainer .productWrapper .productFourth .productFourthImage img {
+    width: 1555px;
+  }
 }/*# sourceMappingURL=product.css.map */

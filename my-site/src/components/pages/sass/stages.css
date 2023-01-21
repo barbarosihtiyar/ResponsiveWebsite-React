@@ -79,4 +79,34 @@
 .stage .stageContainer .stageWrapper .image-stage .stages .third {
   opacity: 1;
   transition: opacity 1.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+  .stage .stageContainer {
+    max-width: 1249px;
+    margin: 0 auto;
+  }
+  .stage .stageContainer .stageWrapper .stageText span {
+    font-size: 100px;
+    font-weight: 600;
+    color: black;
+  }
+  .stage .stageContainer .stageWrapper .stageText span:nth-child(even) {
+    text-align: right;
+    margin-right: 1%;
+  }
+  .stage .stageContainer .stageWrapper .image-stage {
+    display: flex;
+    gap: 10%;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .image {
+    display: none;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .image img {
+    width: 900px;
+    border-radius: 5px;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .stages .partStages .number {
+    margin-left: 3%;
+  }
 }/*# sourceMappingURL=stages.css.map */

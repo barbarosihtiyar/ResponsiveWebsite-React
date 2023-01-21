@@ -6,14 +6,16 @@
   transition: background-color ease-in 1s;
   z-index: 99;
 }
+.header .headerContainer {
+  margin: 0 auto;
+  max-width: 1250px;
+}
 .header .headerContainer .headerWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
   color: #fff;
-  margin-right: 1.5%;
-  margin-left: 1.5%;
 }
 .header .headerContainer .headerWrapper .logo {
   display: flex;
@@ -49,6 +51,9 @@
   display: block;
   gap: 15%;
 }
+.header .headerContainer .headerWrapper .userEntry .hamburger {
+  display: none;
+}
 .header .headerContainer .headerWrapper .userEntry .logIn {
   display: inline-block;
   margin-left: -20%;
@@ -68,4 +73,23 @@
 
 .active {
   background: black;
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+  .header .headerContainer {
+    max-width: 1249px;
+  }
+  .header .headerContainer .headerWrapper .links {
+    display: none;
+  }
+  .header .headerContainer .headerWrapper .userEntry .hamburger {
+    display: block;
+    font-size: 30px;
+  }
+  .header .headerContainer .headerWrapper .userEntry .logIn {
+    display: none;
+  }
+  .header .headerContainer .headerWrapper .userEntry .getStarted {
+    display: none;
+  }
 }/*# sourceMappingURL=Header.css.map */

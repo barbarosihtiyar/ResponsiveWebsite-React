@@ -80,3 +80,63 @@
         }
     }
 }
+
+
+
+
+@media only screen and (max-width: 1249px) and (min-width: 701px){
+    .stage{
+        .stageContainer{
+            max-width: 1249px;
+            margin: 0 auto;
+            .stageWrapper{
+                .stageText{
+                    span{
+                        @include font(100px,600,black);
+    
+                    &:nth-child(even){
+                        text-align: right;
+                        margin-right: 1%;
+                    }
+                    &:nth-child(3){
+                    }
+                    }
+                }
+                .opacity-Yposition{
+                }
+    
+                .image-stage{
+                    display: flex;
+                    gap: 10%;
+                    .image{
+                        display: none;
+                        img{
+                            width: 900px;
+                            border-radius: 5px;
+                        }
+                    }
+                .stages{
+                    .partStages{
+                        .number{
+                            margin-left: 3%;
+                        }
+                        .stagesText{
+                            .stagesTitle{
+                            }
+                            .stagesP{
+                            }
+                        }
+                    }
+                    .first{
+                    }
+                    .second{
+                    }
+                    .third{
+                    }
+                }
+                }
+            }
+        }
+    }
+    
+}

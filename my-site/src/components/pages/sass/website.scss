@@ -154,3 +154,124 @@
     opacity: 1 !important;
     transform: translateX(0) !important;
 }
+
+
+@media only screen and (max-width: 1249px) and (min-width: 701px){
+    .website{
+        .websiteContainer{
+            .websiteWrapper{
+                max-width: 1249px;
+                .websiteTitle{
+                    span{
+                        @include font(100px,600,#fff);
+                        &:nth-child(odd){
+                            margin-left: 0;
+                            margin-top: 8%;
+                        }
+                        &:nth-child(even){
+                            margin-bottom: 5%;
+                        }
+    
+                    }
+                }
+                .websiteImage{
+                    background-color: #905358;
+                    max-width: 900px;
+                    margin: 0 auto;
+                    .websitePart{
+                        .websiteHeader{
+                            padding:  30px;
+                            padding-top: 51px;
+                            padding-bottom: 61px;
+                            .companyName{
+                                @include font(15px,500,#E4E88D);
+                            }
+                            .companyLinks{
+                                @include font(15px,500,#E4E88D);
+                            }
+                            .companyButton{
+                                @include font(20px,500,black);
+                                border-radius: 10px;
+                            }
+                            }
+                        .image{
+                            padding-bottom: 50px;
+                            img{
+                                border-radius: 20px;
+                            }
+                            .absoluteText{
+                            @include font(35px,500,#E4E88D);
+                            top: 25%;
+                            }    
+                        }
+                    }
+                }
+                .websiteTemplates{
+                    span{
+                        @include font(40px,500,#fff);
+                        text-align: center;
+                    }
+                    p{
+                        @include font(20px,600,#fff);
+                        width:90%;
+                        margin-right: auto;
+                        margin-left: auto;
+                        text-align: center;
+                    }
+                }
+                .websitesLink{
+                    margin-top: 5%;
+                    display: flex;
+                    flex-direction: column;
+                    .links{
+                        @include font(30px,600,#fff);
+                        padding-bottom: 20px;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        margin: 0 2%;
+                        gap: 5%;
+                        justify-content: center;
+                        span{
+                            cursor: pointer;
+                            margin-bottom: 8%;
+                            &:hover{
+                                border-bottom: 1px solid #fff;
+                            }        
+                        }
+                    }
+                    .linksPhoto{
+                        img{
+                        }
+                    }
+                }
+                .madeSquareSpace{
+                    .squareSpaceFlex{
+                        display: flex;
+                        align-items:center;
+                        flex-direction: column;
+                        justify-content: center;
+                        .squareImage{
+                            display: none;
+                            margin-bottom: 5%;
+                            img{
+                            }
+                        }
+                    .squareSpaceText{
+                        padding-bottom: 50px;
+                        text-align: center;
+                        h2{
+                            @include font(35px,600,#fff);
+                            width:100%;
+                        }
+                        p{
+                            width: 100%;
+                            margin-top: 1%;
+                            font-size: 18px;
+                        }
+                    }
+                    }
+                }
+            }
+        }
+    }    
+}

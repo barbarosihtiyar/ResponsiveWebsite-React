@@ -43,3 +43,33 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 1249px) and (min-width: 701px){
+    .adverst{
+        .adverstContainer{
+            max-width: 1249px;
+            .adverstWrapper{
+                margin-top: 100px;
+                width: 61%;
+                h1{
+                    font-size: 50px;
+                }
+                .span{
+                    display:flex;
+                    flex-direction: column; 
+                    margin-bottom: 5%;
+                span{
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    }
+                .getAdverstStarted{
+                    width: 180px;
+                }
+            }
+        }
+    }
+}

@@ -39,4 +39,30 @@
   font-weight: 600;
   padding: 18px;
   margin-bottom: 5%;
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+  .adverst .adverstContainer {
+    max-width: 1249px;
+  }
+  .adverst .adverstContainer .adverstWrapper {
+    margin-top: 100px;
+    width: 61%;
+  }
+  .adverst .adverstContainer .adverstWrapper h1 {
+    font-size: 50px;
+  }
+  .adverst .adverstContainer .adverstWrapper .span {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  .adverst .adverstContainer .adverstWrapper .span span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .adverst .adverstContainer .adverstWrapper .getAdverstStarted {
+    width: 180px;
+  }
 }/*# sourceMappingURL=adverst.css.map */

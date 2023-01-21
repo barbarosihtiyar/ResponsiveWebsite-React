@@ -53,3 +53,44 @@
 .marketSecond{
     border-bottom: none !important;
 }
+
+
+@media only screen and (max-width: 1249px) and (min-width: 701px){
+    .market{
+        .marketContainer{
+            .marketWrapper{
+                .marketTitle{
+                    margin: 0 5%;
+                    h1{
+                     @include font(100px,600,black);
+                    }
+                    .text-rigth{
+                    }
+                }
+                .marketInfo{
+                    margin: 0 2%;
+                    .marketImage{
+                        img{
+                        }
+                    }
+                .marketText{
+                    h1{
+                        @include font(30px,600,black);
+                        width: 95%;
+                    }
+                    p{
+                        @include font(20px,600,black);
+                    }
+                }
+                }
+                .marketSecond{
+                    .marketImage{
+                        img{
+                            width: 2000px;
+                        }
+                        }
+                }
+
+            }
+        }
+    }}

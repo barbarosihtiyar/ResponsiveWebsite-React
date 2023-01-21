@@ -161,4 +161,123 @@
 .animate {
   opacity: 1 !important;
   transform: translateX(0) !important;
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+  .website .websiteContainer .websiteWrapper {
+    max-width: 1249px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTitle span {
+    font-size: 100px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTitle span:nth-child(odd) {
+    margin-left: 0;
+    margin-top: 8%;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTitle span:nth-child(even) {
+    margin-bottom: 5%;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage {
+    background-color: #905358;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader {
+    padding: 30px;
+    padding-top: 51px;
+    padding-bottom: 61px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader .companyName {
+    font-size: 15px;
+    font-weight: 500;
+    color: #E4E88D;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader .companyLinks {
+    font-size: 15px;
+    font-weight: 500;
+    color: #E4E88D;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader .companyButton {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    border-radius: 10px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image {
+    padding-bottom: 50px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image img {
+    border-radius: 20px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image .absoluteText {
+    font-size: 35px;
+    font-weight: 500;
+    color: #E4E88D;
+    top: 25%;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTemplates span {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTemplates p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink .links {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 2%;
+    gap: 5%;
+    justify-content: center;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink .links span {
+    cursor: pointer;
+    margin-bottom: 8%;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink .links span:hover {
+    border-bottom: 1px solid #fff;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareImage {
+    display: none;
+    margin-bottom: 5%;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText p {
+    width: 100%;
+    margin-top: 1%;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=website.css.map */
