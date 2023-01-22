@@ -30,4 +30,34 @@
   font-size: 20px;
   font-weight: 600;
   color: #fff;
+}
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+  .trial .trialContainer .trialWrapper .trialTextImage {
+    flex-direction: column;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .image {
+    width: auto;
+    padding-bottom: 30px;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .image img {
+    width: 653px;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .text {
+    text-align: center;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .text h2 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    line-height: 75px;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .text span {
+    margin-top: 5%;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+  }
 }/*# sourceMappingURL=trial.css.map */

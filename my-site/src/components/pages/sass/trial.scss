@@ -33,3 +33,36 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 1249px) and (min-width: 701px) {
+    .trial{
+        .trialContainer{
+            .trialWrapper{
+                .trialTextImage{
+                    flex-direction: column;
+                    .image{
+                        width: auto;
+                        padding-bottom: 30px;
+                        img{
+                        width: 653px;
+                        }
+                    }
+                .text{
+                    text-align: center;
+                    h2{
+                        @include font(80px,600,#fff);
+                        width: 100%;
+                        line-height: 75px;
+                    }
+                    span{
+                        margin-top: 5%;
+                        display: inline-block;
+                        @include font(25px,600,#fff);
+                    }
+                }
+                }
+            }
+        }
+    }
+}
