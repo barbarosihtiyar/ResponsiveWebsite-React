@@ -280,4 +280,120 @@
     margin-top: 1%;
     font-size: 18px;
   }
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  .website .websiteContainer .websiteWrapper .websiteTitle span {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 60px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTitle span:nth-child(odd) {
+    margin-left: 0;
+    margin-top: 8%;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTitle span:nth-child(even) {
+    margin-bottom: 5%;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader {
+    gap: 10%;
+    padding: 30px;
+    padding-top: 51px;
+    padding-bottom: 61px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader .companyName {
+    font-size: 12px;
+    font-weight: 500;
+    color: #E4E88D;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader .companyLinks {
+    font-size: 12px;
+    font-weight: 500;
+    color: #E4E88D;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader .companyButton {
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    display: none;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image {
+    padding-bottom: 50px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image img {
+    border-radius: 20px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image .absoluteText {
+    font-size: 25px;
+    font-weight: 500;
+    color: #E4E88D;
+    top: 25%;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTemplates {
+    padding-bottom: 20px;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTemplates span {
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+  }
+  .website .websiteContainer .websiteWrapper .websiteTemplates p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink {
+    margin-top: 5%;
+    flex-direction: column;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink .links {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 2%;
+    gap: 5%;
+    justify-content: center;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink .links span {
+    cursor: pointer;
+    margin-bottom: 8%;
+  }
+  .website .websiteContainer .websiteWrapper .websitesLink .links span:hover {
+    border-bottom: 1px solid #fff;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareImage {
+    display: none;
+    margin-bottom: 5%;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText {
+    padding-bottom: 50px;
+    text-align: center;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+  }
+  .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText p {
+    width: 100%;
+    margin-top: 1%;
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=website.css.map */

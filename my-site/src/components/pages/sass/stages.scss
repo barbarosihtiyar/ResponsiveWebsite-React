@@ -140,3 +140,60 @@
     }
     
 }
+
+@media only screen and (max-width: 700px) and (min-width: 0px){
+    .stage{
+        .stageContainer{
+            .stageWrapper{
+                .stageText{
+                    span{
+                        height: 70px;
+                        @include font(50px,600,black);
+    
+                    &:nth-child(even){
+                        text-align: right;
+                        margin-right: 1%;
+                    }
+                    &:nth-child(3){
+                    }
+                    }
+                }
+                .opacity-Yposition{
+                }
+    
+                .image-stage{
+                    .image{
+                        display: none;
+                        img{
+                        }
+                    }
+                .stages{
+                    .partStages{
+                        align-items: center;
+                        padding-bottom: 15px;
+                        .number{
+                            margin-left: 3%;
+                            font-size: 50px;
+                        }
+                        .stagesText{
+                            .stagesTitle{
+                                font-size: 15px;
+                            }
+                            .stagesP{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    .first{
+                    }
+                    .second{
+                    }
+                    .third{
+                    }
+                }
+                }
+            }
+        }
+    }
+    
+}

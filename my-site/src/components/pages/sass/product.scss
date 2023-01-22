@@ -198,3 +198,104 @@
         }
     }
 }
+
+@media only screen and (max-width: 700px) and (min-width: 1px){
+
+    .product{
+        .productContainer{
+            .productWrapper{
+                .productFirst{
+                    margin-left: 2%;
+                        .productTitle{
+                            @include font(37px,600,#fff);
+                            line-height: 61px;
+                            }
+                    p{
+                        @include font(17px,600,#fff);
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                        width: 90%;
+                    }
+                    button{
+                        margin-bottom: 5%;
+                        font-size: 15px;
+                    }
+                    .image{
+                       display: none;
+                    }
+                }
+                .productSecond{
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 0 2%;
+                    .productSecondText{
+                        h4{
+                            @include font(38px,500,#fff);
+                            margin-bottom: 0;
+                            width: 100%;
+                            text-align: center;
+                        }
+                        p{
+                            margin: 0 auto;
+                            margin-top: 4%;
+                            @include font(16px,600,#fff);
+                            width: 100%;
+                            padding-bottom: 20px;
+                        }
+                    }
+                    .productSecondImage{
+                        width: auto;
+                    }
+                }
+                .productThird{
+                    margin: 0 2%;
+                    align-items: center;
+                    flex-direction: column;
+                    .productThirdText{
+                        h4{
+                            @include font(38px,500,#fff);
+                            margin-bottom: 0;
+                            width: 100%;
+                            text-align: center;
+                        }
+                        p{
+                            @include font(16px,600,#fff);
+                            margin-top: 4%;
+                            width: 100%;
+                            padding-bottom: 20px;
+                        }
+                    }
+                    .productThirdImage{
+                        img{
+                            width: 820px;
+                        }
+                    }
+                }
+                .productFourth{
+                   align-items: center;
+                   margin: 0 2%;
+                   flex-direction: column;
+                    .productFourthText{
+                        h4{
+                            @include font(38px,500,#fff);
+                            margin-bottom: 0;
+                            text-align: center;
+                            width: 100%;
+                        }
+                        p{
+                            @include font(16px,600,#fff);
+                            margin-top: 4%;
+                            width: 100%;
+                            padding-bottom: 20px;
+                        }
+                    }
+                    .productFourthImage{
+                        img{
+                            width: 1555px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

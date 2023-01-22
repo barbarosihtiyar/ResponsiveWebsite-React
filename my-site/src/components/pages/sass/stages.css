@@ -109,4 +109,33 @@
   .stage .stageContainer .stageWrapper .image-stage .stages .partStages .number {
     margin-left: 3%;
   }
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  .stage .stageContainer .stageWrapper .stageText span {
+    height: 70px;
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+  }
+  .stage .stageContainer .stageWrapper .stageText span:nth-child(even) {
+    text-align: right;
+    margin-right: 1%;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .image {
+    display: none;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .stages .partStages {
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .stages .partStages .number {
+    margin-left: 3%;
+    font-size: 50px;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .stages .partStages .stagesText .stagesTitle {
+    font-size: 15px;
+  }
+  .stage .stageContainer .stageWrapper .image-stage .stages .partStages .stagesText .stagesP {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=stages.css.map */

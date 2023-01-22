@@ -92,4 +92,19 @@
   .header .headerContainer .headerWrapper .userEntry .getStarted {
     display: none;
   }
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  .header .headerContainer .headerWrapper .links {
+    display: none;
+  }
+  .header .headerContainer .headerWrapper .userEntry .hamburger {
+    display: block;
+    font-size: 30px;
+  }
+  .header .headerContainer .headerWrapper .userEntry .logIn {
+    display: none;
+  }
+  .header .headerContainer .headerWrapper .userEntry .getStarted {
+    display: none;
+  }
 }/*# sourceMappingURL=Header.css.map */

@@ -65,4 +65,20 @@
   .adverst .adverstContainer .adverstWrapper .getAdverstStarted {
     width: 180px;
   }
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  .adverst {
+    background-position: left;
+    background-size: inherit;
+  }
+  .adverst .adverstContainer .adverstWrapper {
+    margin-top: 100px;
+    width: 61%;
+  }
+  .adverst .adverstContainer .adverstWrapper h1 {
+    font-size: 40px;
+  }
+  .adverst .adverstContainer .adverstWrapper .getAdverstStarted {
+    width: 180px;
+  }
 }/*# sourceMappingURL=adverst.css.map */
