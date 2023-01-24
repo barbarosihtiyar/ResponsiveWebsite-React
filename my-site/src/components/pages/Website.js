@@ -26,13 +26,29 @@ function Website() {
   const changevalueonScrool = () => {
     const scrollvalue = document.documentElement.scrollTop;
 
-    if(scrollvalue > 2150){
-      setChange(true);
-    }
-    if(scrollvalue > 2650){
-      setDisplayText(true) (true);
-    }
-  }
+    if(window.innerWidth >1250){
+      if(scrollvalue > 2150){
+        setChange(true);
+      }
+      if(scrollvalue > 2650){
+        setDisplayText(true) (true);
+      }
+    }else if(window.innerWidth >701){
+        if(scrollvalue > 1230){
+          setChange(true);
+        }
+        if(scrollvalue > 1250){
+          setDisplayText(true) (true);
+        }
+      }else{
+          if(scrollvalue > 812){
+            setChange(true);
+          }
+          if(scrollvalue > 824){
+            setDisplayText(true) (true);
+          }
+        }
+          }
   window.addEventListener("scroll",changevalueonScrool);
 
 

@@ -10,13 +10,28 @@ function Stages() {
 
   const changevalueonScrool = () => {
     const scrollvalue = document.documentElement.scrollTop;
-
-    if(scrollvalue > 250){
-      setChange(true);
-    }
-    if(scrollvalue > 650){
-      setDisplayText(true) (true);
-    }
+    if(window.innerWidth>1250){
+      if(scrollvalue > 250){
+        setChange(true);
+      }
+      if(scrollvalue > 650){
+        setDisplayText(true);
+      }
+      }else if(window.innerWidth>701){
+        if(scrollvalue >1){
+          setChange(true);
+        }
+        if(scrollvalue > 57){
+          setDisplayText(true);
+        }
+        }else{
+          if(scrollvalue >1){
+            setChange(true);
+          }
+          if(scrollvalue > 6){
+            setDisplayText(true);
+          }
+          }
   }
 
   window.addEventListener("scroll",changevalueonScrool);
