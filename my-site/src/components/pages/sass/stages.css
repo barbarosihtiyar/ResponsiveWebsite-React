@@ -112,8 +112,8 @@
 }
 @media only screen and (max-width: 700px) and (min-width: 0px) {
   .stage .stageContainer .stageWrapper .stageText span {
-    height: 70px;
-    font-size: 50px;
+    height: 38px;
+    font-size: 28px;
     font-weight: 600;
     color: black;
   }
@@ -133,9 +133,9 @@
     font-size: 50px;
   }
   .stage .stageContainer .stageWrapper .image-stage .stages .partStages .stagesText .stagesTitle {
-    font-size: 15px;
+    font-size: 13px;
   }
   .stage .stageContainer .stageWrapper .image-stage .stages .partStages .stagesText .stagesP {
-    font-size: 15px;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=stages.css.map */

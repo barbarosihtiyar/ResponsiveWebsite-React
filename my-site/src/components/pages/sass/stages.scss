@@ -147,8 +147,8 @@
             .stageWrapper{
                 .stageText{
                     span{
-                        height: 70px;
-                        @include font(50px,600,black);
+                        height: 38px;
+                        @include font(28px,600,black);
     
                     &:nth-child(even){
                         text-align: right;
@@ -177,10 +177,10 @@
                         }
                         .stagesText{
                             .stagesTitle{
-                                font-size: 15px;
+                                font-size: 13px;
                             }
                             .stagesP{
-                                font-size: 15px;
+                                font-size: 13px;
                             }
                         }
                     }
