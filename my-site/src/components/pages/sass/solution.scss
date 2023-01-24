@@ -393,3 +393,137 @@
         }
     }
 }
+
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+    .solution {
+        padding-bottom: 5%;
+        .solutionContainer {
+            margin: 0 auto;
+            padding-top: 3%;
+            padding-bottom: 5%;
+            .solutionWrapper {
+                .solutionTitle {
+                    h1 {
+                        @include font(50px, 600, black);
+                        text-align: center;
+                        line-height: 60px;
+                    }
+                    .text-left {
+                        text-align: left;
+                    }
+                }
+                .solutionImageText {
+                    padding-top: 5%;
+                    flex-direction: column;
+                    .solutionImage {
+                        img {
+                            width: 669px;
+                        }
+                    }
+                    .solutionText {
+                        h3 {
+                            @include font(25px, 600, black);
+                            width: 100%;
+                            text-align: center;
+                            line-height: 30px;
+                            padding-top: 15px;
+                        }
+                        p {
+                            @include font(16px, 500, black);
+                            width: 85%;
+                            padding-top: 5%;
+                        }
+                    }
+                }
+                .solutionExplore {
+                    display: none;
+                }
+            }
+        }
+        .learnHowTo {
+            .learnHowToContainer {
+                .learnHowToWrapper {
+                    .learnTitle {
+                        h1 {
+                            width: 60%;
+                            margin: 0 auto;
+                            font-size: 28px;
+                        }
+                    }
+                    .learnImageText {
+                        flex-direction: column;
+                        .learnImage {
+                            padding-bottom: 30px;
+                            h3 {
+                                @include font(22px, 600, black);
+                                text-align: center;
+                            }
+                        }
+                        .learnStages {
+                            .commonStages {
+                                width: 88%;
+                                @include font(16px, 600, black);
+                                margin: 0 auto;
+                                padding-bottom: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .covered {
+            .coveredContainer {
+                .coveredWrapper {
+                    .coveredTitleText {
+                        h3 {
+                            @include font(28px, 600, black);
+                            width: 100%;
+                            text-align: center;
+                            padding-bottom: 8px;
+                        }
+                    }
+                    .coveredCollapse {
+                        display: flex;
+                        flex-direction: column;
+                        .coveredText {
+                            p {
+                                @include font(13px, 500, black);
+                                width: 90%;
+                                margin: 0 auto;
+                                padding-bottom: 30px;
+                            }
+                        }
+                        .allCollapse {
+                            .collapse {
+                                .firstTitleIcon {
+                                }
+                                .titleIcon {
+                                    font-size: 14px;
+                                    h4 {
+                                        line-height: 50px;
+                                        margin: 0 2%;
+                                        width: 90%;
+                                    }
+
+                                    .plusIcon {
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                    }
+                                }
+                                p {
+                                    @include font(17px, 500, black);
+                                    line-height: 20px;
+                                    width: 63%;
+                                    word-break: normal;
+                                    transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+                                    visibility: hidden;
+                                    margin: 0 2%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -94,3 +94,47 @@
             }
         }
     }}
+
+    @media only screen and (max-width: 700px) and (min-width: 0px){
+        .market{
+            .marketContainer{
+                .marketWrapper{
+                    .marketTitle{
+                        margin: 0 5%;
+                        h1{
+                         @include font(50px,600,black);
+                         line-height: 70px;
+                        }
+                        .text-rigth{
+                        }
+                    }
+                    .marketInfo{
+                        margin: 0 2%;
+                        flex-direction: column;
+                        .marketImage{
+                            img{
+                            }
+                        }
+                    .marketText{
+                        h1{
+                            @include font(20px,600,black);
+                            line-height: 30px;
+                            width: 95%;
+                        }
+                        p{
+                            @include font(13px,500,black);
+                            padding-top: 10px;
+                        }
+                    }
+                    }
+                    .marketSecond{
+                        .marketImage{
+                            img{
+                                width: 2000px;
+                            }
+                            }
+                    }
+    
+                }
+            }
+        }}

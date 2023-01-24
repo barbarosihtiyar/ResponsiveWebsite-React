@@ -77,4 +77,35 @@
   .market .marketContainer .marketWrapper .marketSecond .marketImage img {
     width: 2000px;
   }
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  .market .marketContainer .marketWrapper .marketTitle {
+    margin: 0 5%;
+  }
+  .market .marketContainer .marketWrapper .marketTitle h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    line-height: 70px;
+  }
+  .market .marketContainer .marketWrapper .marketInfo {
+    margin: 0 2%;
+    flex-direction: column;
+  }
+  .market .marketContainer .marketWrapper .marketInfo .marketText h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    line-height: 30px;
+    width: 95%;
+  }
+  .market .marketContainer .marketWrapper .marketInfo .marketText p {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    padding-top: 10px;
+  }
+  .market .marketContainer .marketWrapper .marketSecond .marketImage img {
+    width: 2000px;
+  }
 }/*# sourceMappingURL=market.css.map */

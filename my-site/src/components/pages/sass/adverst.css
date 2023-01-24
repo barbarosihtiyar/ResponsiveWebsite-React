@@ -76,9 +76,14 @@
     width: 61%;
   }
   .adverst .adverstContainer .adverstWrapper h1 {
-    font-size: 40px;
+    font-size: 28px;
+  }
+  .adverst .adverstContainer .adverstWrapper .span span {
+    font-size: 13px;
   }
   .adverst .adverstContainer .adverstWrapper .getAdverstStarted {
-    width: 180px;
+    width: 130px;
+    font-size: 13px;
+    padding: 10px;
   }
 }/*# sourceMappingURL=adverst.css.map */

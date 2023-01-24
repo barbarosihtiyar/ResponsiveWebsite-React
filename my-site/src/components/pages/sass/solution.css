@@ -390,4 +390,118 @@
     visibility: hidden;
     margin: 0 2%;
   }
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  .solution {
+    padding-bottom: 5%;
+  }
+  .solution .solutionContainer {
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 5%;
+  }
+  .solution .solutionContainer .solutionWrapper .solutionTitle h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    line-height: 60px;
+  }
+  .solution .solutionContainer .solutionWrapper .solutionTitle .text-left {
+    text-align: left;
+  }
+  .solution .solutionContainer .solutionWrapper .solutionImageText {
+    padding-top: 5%;
+    flex-direction: column;
+  }
+  .solution .solutionContainer .solutionWrapper .solutionImageText .solutionImage img {
+    width: 669px;
+  }
+  .solution .solutionContainer .solutionWrapper .solutionImageText .solutionText h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 15px;
+  }
+  .solution .solutionContainer .solutionWrapper .solutionImageText .solutionText p {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    width: 85%;
+    padding-top: 5%;
+  }
+  .solution .solutionContainer .solutionWrapper .solutionExplore {
+    display: none;
+  }
+  .solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnTitle h1 {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 28px;
+  }
+  .solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText {
+    flex-direction: column;
+  }
+  .solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText .learnImage {
+    padding-bottom: 30px;
+  }
+  .solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText .learnImage h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+  }
+  .solution .learnHowTo .learnHowToContainer .learnHowToWrapper .learnImageText .learnStages .commonStages {
+    width: 88%;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    margin: 0 auto;
+    padding-bottom: 3px;
+  }
+  .solution .covered .coveredContainer .coveredWrapper .coveredTitleText h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+  .solution .covered .coveredContainer .coveredWrapper .coveredCollapse {
+    display: flex;
+    flex-direction: column;
+  }
+  .solution .covered .coveredContainer .coveredWrapper .coveredCollapse .coveredText p {
+    font-size: 13px;
+    font-weight: 500;
+    color: black;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+  .solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse .titleIcon {
+    font-size: 14px;
+  }
+  .solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse .titleIcon h4 {
+    line-height: 50px;
+    margin: 0 2%;
+    width: 90%;
+  }
+  .solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse .titleIcon .plusIcon {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .solution .covered .coveredContainer .coveredWrapper .coveredCollapse .allCollapse .collapse p {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    line-height: 20px;
+    width: 63%;
+    word-break: normal;
+    transition: all 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+    visibility: hidden;
+    margin: 0 2%;
+  }
 }/*# sourceMappingURL=solution.css.map */
