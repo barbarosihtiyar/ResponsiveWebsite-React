@@ -60,4 +60,33 @@
     font-weight: 600;
     color: #fff;
   }
+}
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  .trial .trialContainer .trialWrapper .trialTextImage {
+    flex-direction: column;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .image {
+    width: 90%;
+    padding-bottom: 30px;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .image img {
+    width: 653px;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .text {
+    text-align: center;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .text h2 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    line-height: 45px;
+  }
+  .trial .trialContainer .trialWrapper .trialTextImage .text span {
+    margin-top: 5%;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+  }
 }/*# sourceMappingURL=trial.css.map */

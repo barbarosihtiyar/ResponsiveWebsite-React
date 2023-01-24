@@ -283,8 +283,8 @@
             .websiteWrapper{
                 .websiteTitle{
                     span{
-                        @include font(50px,600,#fff);
-                        line-height: 60px;
+                        @include font(28px,600,#fff);
+                        line-height: 40px;
                         &:nth-child(odd){
                             margin-left: 0;
                             margin-top: 8%;
@@ -298,6 +298,7 @@
                 .websiteImage{
                     .websitePart{
                         .websiteHeader{
+                            display: none;
                             gap: 10%;
                             padding:  30px;
                             padding-top: 51px;
@@ -317,11 +318,12 @@
                             }
                         .image{
                             padding-bottom: 50px;
+                            padding-top: 50px;
                             img{
                                 border-radius: 20px;
                             }
                             .absoluteText{
-                            @include font(25px,500,#E4E88D);
+                            @include font(20px,500,#E4E88D);
                             top: 25%;
                             }    
                         }
@@ -330,11 +332,11 @@
                 .websiteTemplates{
                     padding-bottom: 20px;
                     span{
-                        @include font(40px,500,#fff);
+                        @include font(28px,500,#fff);
                         text-align: center;
                     }
                     p{
-                        @include font(15px,600,#fff);
+                        @include font(13px,600,#fff);
                         width:90%;
                         margin-right: auto;
                         margin-left: auto;
@@ -381,13 +383,13 @@
                         padding-bottom: 50px;
                         text-align: center;
                         h2{
-                            @include font(35px,600,#fff);
+                            @include font(28px,600,#fff);
                             width:100%;
                         }
                         p{
                             width: 100%;
                             margin-top: 1%;
-                            font-size: 15px;
+                            font-size: 13px;
                         }
                     }
                     }

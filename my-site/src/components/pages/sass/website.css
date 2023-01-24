@@ -283,10 +283,10 @@
 }
 @media only screen and (max-width: 700px) and (min-width: 0px) {
   .website .websiteContainer .websiteWrapper .websiteTitle span {
-    font-size: 50px;
+    font-size: 28px;
     font-weight: 600;
     color: #fff;
-    line-height: 60px;
+    line-height: 40px;
   }
   .website .websiteContainer .websiteWrapper .websiteTitle span:nth-child(odd) {
     margin-left: 0;
@@ -296,6 +296,7 @@
     margin-bottom: 5%;
   }
   .website .websiteContainer .websiteWrapper .websiteImage .websitePart .websiteHeader {
+    display: none;
     gap: 10%;
     padding: 30px;
     padding-top: 51px;
@@ -321,12 +322,13 @@
   }
   .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image {
     padding-bottom: 50px;
+    padding-top: 50px;
   }
   .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image img {
     border-radius: 20px;
   }
   .website .websiteContainer .websiteWrapper .websiteImage .websitePart .image .absoluteText {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: #E4E88D;
     top: 25%;
@@ -335,13 +337,13 @@
     padding-bottom: 20px;
   }
   .website .websiteContainer .websiteWrapper .websiteTemplates span {
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 500;
     color: #fff;
     text-align: center;
   }
   .website .websiteContainer .websiteWrapper .websiteTemplates p {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     color: #fff;
     width: 90%;
@@ -386,7 +388,7 @@
     text-align: center;
   }
   .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText h2 {
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 600;
     color: #fff;
     width: 100%;
@@ -394,6 +396,6 @@
   .website .websiteContainer .websiteWrapper .madeSquareSpace .squareSpaceFlex .squareSpaceText p {
     width: 100%;
     margin-top: 1%;
-    font-size: 15px;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=website.css.map */
